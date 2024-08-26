@@ -11,8 +11,6 @@ import axios from 'axios';
 
 // Set the base URL for Axios
 axios.defaults.baseURL = process.env.REACT_APP_BASE_URL || "http://localhost:5000";
-console.log("base url", process.env.REACT_APP_BASE_URL)
-
 
 function App() {
 
